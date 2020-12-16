@@ -6,7 +6,7 @@ class App extends React.Component {
 
   state = {
 		tasks: [],
-		category: ""
+		category: "All"
 	}
 	
 	componentDidMount() {
